@@ -1,0 +1,31 @@
+.Heading{
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: normal;
+    text-align: center;
+    background-color: #baccdf;
+    margin: 4px;
+    padding: 5px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .item_area{
+      height: auto;
+      background-color: #E9ECEF;
+      padding-top: 10px;
+      margin-top: 0.5%;
+      margin-left: 50px;
+      padding-left: 40px;
+      margin-right: 50px;
+  }
